@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body data-bs-target="#cabecalho" data-bs-spy="scroll">
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>LP Action Figures Store</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#novidades">Novidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="carousel-images" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <a href="#novidades">
+                <div class="carousel-item active" data-bs-interval="2000" >
+                    <img class="d-block w-100" src="./imagens/batman.png" >
+                    <div class="carousel-caption">
+                        <h3>Batman Samurai</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./imagens/Chun-Li.png" >
+                    <div class="carousel-caption">
+                        <h3>Chun-li</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./imagens/zoro-3.png" >
+                    <div class="carousel-caption">
+                        <h3>Roronoa Zoro</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./imagens/darth-vader.png" >
+                    <div class="carousel-caption">
+                        <h3>Darth Vader</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./imagens/luffy-g5.png" >
+                    <div class="carousel-caption">
+                        <h3>Luffy-Nika</h3>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="d-block w-100" src="./imagens/Deadpool.png" >
+                    <div class="carousel-caption">
+                        <h3>Deadpool</h3>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <button data-bs-target="#carousel-images" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel-images" data-bs-slide="next" class="carousel-control-next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-images" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-images" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-images" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#carousel-images" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#carousel-images" data-bs-slide-to="4"></button>
+            <button type="button" data-bs-target="#carousel-images" data-bs-slide-to="5"></button>
+        </div>
+    </div>
+    <div>
+        <section class="about" id="sobre">
+            <div class="container">
+                <h2>Sobre</h2>
+                <p>
+                    <i>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam iure esse recusandae eveniet nobis provident nihil excepturi amet incidunt impedit veritatis eligendi facere, porro ipsum ipsam tempore architecto rerum fuga! Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dicta molestias ipsam, pariatur provident qui? Cupiditate animi nihil ut vitae? Sint optio nihil suscipit, placeat est iusto consectetur quisquam.
+                    </i>
+                </p>
+                <img class="imagem-loja" src="./imagens/loja.png">
+            </div>
+        </section>
+        <section class="item-p" id="novidades">
+            <div class="container">
+            <h2>Novidades</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/batman.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Chun-Li.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Deadpool.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/zoro-3.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/darth-vader.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/luffy-g5.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="item-p" id="produtos">
+            <div class="container">
+            <h2>Produtos</h2>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Blanka.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Cavaleiros.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Deadpool-2.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Deadpool-3.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/deadpool.1.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/jaspion.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/luffy.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/luffy2.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Ryu.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Scorpion.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/spaw.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Wonder-woman.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/Wolverine.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/zoro.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/zoro-2.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card text-bg-dark">
+                            <img src="./imagens/zoro-4.png" />
+                            <div class="card-body">
+                                <h4 class="card-title">Título do card</h4>
+                                <h5 class="card-subititle">Subtitulo do card</h5>
+                                <div class="price">
+                                    R$ 999,99
+                                </div>
+                                <a href="#" class="btn btn-warning">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="container-flex">
+                <div>
+                    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#form-modal">
+                        Contate-nos
+                    </button>
+                    <div class="modal" id="form-modal" data-bs-backdrop="static">
+                        <div class="modal-dialog modal-dialog-centered ">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h6>Insira seus dados</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form class="form-modal">
+                                        <div>
+                                            <input class="form-control mb-3" type="text" id="nome" required placeholder=" Nome" />
+                                            <input class="form-control mb-3" type="tel" id="telefone" required placeholder=" Telefone" >
+                                            <input class="form-control mb-3" type="email" id="email" required placeholder=" E-mail" >
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="submit" class="btn btn-success">Confirmar</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="endereco">
+                <h6>Venha até nós:</h6>
+                <p>
+                    Rua: Dos Lampiões, n° 1, Liberdade, Sâo Paulo - SP
+                </p>
+            </div>
+            <div class="container-flex">
+                <ul class="social-links">
+                    <li>
+                        <a href="#">
+                            <img src="./imagens/icones/facebook.png" alt="Facebook">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./imagens/icones/instagram.png" alt="Instagram">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./imagens/icones/youtube.png" alt="Youtube">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div>
+            <p>
+                &copy; LP Action Figures Store - Todos os direitos reservados - Luis Pavan - 2024
+            </p>
+        </div>
+    </footer>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

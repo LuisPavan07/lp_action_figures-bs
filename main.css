@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bungee", sans-serif;
+}
+
+p,
+p i,
+h4,
+h5,
+.price {
+font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 20000;
+    background-color: #c7e4ff;
+}
+
+.nav-link, h2, .endereco{
+    text-align: center;
+}
+
+.nav-item {
+    font-size: 14px;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.carousel-inner img {
+    height: 580px;
+}
+
+section .container {
+    padding: 100px 0px 0px 0px;
+}
+
+.about p {
+    font-size: 1em;
+    margin-bottom: 26px;
+}
+
+.about img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.about h2 {
+    margin-bottom: 16px;
+}
+
+.item-p img {
+    height: 240px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.endereco {
+    padding: 20px 0 10px 0;
+}
+
+.social-links img {
+    height: 24px;
+} 
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+.social-links {
+    margin-right: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+footer p {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    header .container {
+        max-width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .carousel {
+        height: 400px; 
+    }
+    
+    .carousel-inner img {
+        width: 100%; 
+        height: auto;
+    }
+    
+
+    section .container {
+        padding: 40px 10px;
+    } 
+
+    .about img {
+        width: 100%;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .endereco {
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        max-width: 90%
+    }
+}
